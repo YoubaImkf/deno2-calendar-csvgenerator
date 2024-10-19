@@ -1,5 +1,5 @@
 const startDate = new Date("2024-10-19T18:00:00");
-const daysInMonth = 30;
+const totalScheduleDays  = 30;
 
 // Change the structure as you need 🩶
 const schedule = [
@@ -175,7 +175,7 @@ function processActivities(date: Date, activities: {
   });
 }
 
-for (let i = 0; i < daysInMonth; i++) {
+for (let i = 0; i < totalScheduleDays ; i++) {
   const date = new Date(startDate);
   date.setDate(startDate.getDate() + i);
 
