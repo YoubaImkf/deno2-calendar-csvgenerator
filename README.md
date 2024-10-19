@@ -1,4 +1,4 @@
-# 📅 Deno CSV Calendar Generator
+# 📅 Deno v2.0.2 CSV Calendar Generator
 
 Welcome to the Deno CSV Calendar Generator! This script creates a CSV file containing your scheduled activities, making it easy to import into Google Calendar. 
 
